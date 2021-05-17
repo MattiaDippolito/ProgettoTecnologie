@@ -19,3 +19,6 @@ COME GIOCARE
 - Recarsi a progettopong.hopto.org
 - Scaricare il file .jar del gioco dal sito web.
 - Connettere i due controller alla seriale e quando tutti e due i giocatori sono pronti inizierá il gioco.
+
+LINK UTILI
+- Trello -> https://trello.com/b/B5nlx3Jy/progetto-tecnologie
