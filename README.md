@@ -1,4 +1,3 @@
-# ProgettoTecnologie
 PONG
 ------------------------------------------------------------------
 Gioco pong in multiplayer creato in java e controllato con arduino.
