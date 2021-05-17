@@ -13,7 +13,7 @@ DIVISIONE LAVORO NEL PROGETTO
 - Oricchio -> ThreadPalla, Condivisa, Disegna e JFrame per Palla, Sito Web per scaricare gioco.
 - Gatto -> Collisioni con i bordi, codice arduino per il controller.
 - D'Ippolito, Cazzola, Oricchio e Gatto -> Collisioni con giocatori, Punteggi.
-- D'Ippolito e Cazzola -> Prova della comunicazione seriale tra Arduino e Java.
+- Cazzola -> Comunicazione seriale tra arduino e java.
 
 COME GIOCARE
 - Recarsi a progettopong.hopto.org
