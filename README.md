@@ -16,5 +16,6 @@ DIVISIONE LAVORO NEL PROGETTO
 - D'Ippolito e Cazzola -> Prova della comunicazione seriale tra Arduino e Java.
 
 COME GIOCARE
+- Recarsi al sito web.
 - Scaricare il file .jar del gioco dal sito web.
 - Connettere i due controller alla seriale e quando tutti e due i giocatori sono pronti inizierá il gioco.
