@@ -8,6 +8,7 @@ D'Ippolito Mattia
 Cazzola Thomas
 Oricchio Daniele
 Gatto Tommaso
+
 DIVISIONE LAVORO NEL PROGETTO
 
 D'Ippolito e Oricchio -> Creazione classe Giocatore, JFrame, KeyEvent, ThreadDisegna
