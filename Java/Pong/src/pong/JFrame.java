@@ -32,18 +32,31 @@ public class JFrame extends javax.swing.JFrame {
         this.setTitle("Pong");
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.setVisible(true);
+        
         Giocatori = new ArrayList<Giocatore>();
         g1 = new Giocatore("sinistra", this);
         Giocatori.add(g1);
+        
         g2 = new Giocatore("destra", this);
         Giocatori.add(g2);
+        
         c = Condivisa.getIstance(g1, g2);
+        
+        Controller1 controller1 = new Controller1("COM3");
+        Controller2 controller2 = new Controller2("COM5");
+        
+        controller1.start();
+        controller2.start();
+        
         p = new Palla(this);
         p.start();
+        
         this.addKeyListener(new keyEvent(g1));
         this.addKeyListener(new KeyEvent2(g2));
+        
         Disegna disegna = new Disegna(this, 33);
         disegna.start();
+        
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
     }
 
