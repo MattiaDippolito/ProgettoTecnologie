@@ -1,0 +1,13 @@
+Funzionamento Controller:
+
+-Luce bianca lampeggiante appena connesso al pc
+-Luce bianca fissa indica che il gioco è iniziato
+
+-Luce bianca e verde lampeggiante indicano che si è fatto un punto
+-Luce bianca e rossa lampeggiante indicano che si ha fatto un punto
+-Luce bianca e verde insieme indicano la vittoria della partita
+-Luce bianca e rossa insieme indicano la sconfitta della partita
+
+-L'inclinazione del joystick verso l'alto muoverà la barra in alto
+-L'inclinazione del joystick verso il basso muoverà la barra in basso
+-Se il joystick rimarrà al centro la barra non si muoverà

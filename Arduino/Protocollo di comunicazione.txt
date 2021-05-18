@@ -1,0 +1,23 @@
+Invio dati da Arduino a Java:
+
+Arduino potrà iniziare a inviare dati solo quando Java gli dice che il gioco è iniziato.
+Quando il gioco inizia, Arduino stamperà:
+
+Giocatore 1
+- direzione di movimento tramite tastiera ('w' = su, 's' = giu, 'z' =  imposta il giocatore a pronto)
+
+Giocatore 2
+- direzione di movimento tramite tastiera ('i' = su, 'k' = giu, 'm' =  imposta il giocatore a pronto)
+
+------------------------------------------------------------------------------------------------------
+Invio dati da Java ad Arduino
+
+Arduino aspetterà un carattere in seriale per poter iniziare a funzionare.
+Arduino rilevarà solo 4 caratteri:
+
+	- '0' -> Gioco iniziato
+	- '1' -> Punto segnato a favore
+	- '2' -> Punto segnato a sfavore
+	- '3' -> Gioco finito
+	- '4' -> Se hai vinto
+        - '5' -> Se hai perso
