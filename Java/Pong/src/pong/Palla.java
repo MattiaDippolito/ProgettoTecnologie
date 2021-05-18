@@ -104,7 +104,6 @@ public class Palla extends Thread {
             x = f.getWidth() / 2;
             y = f.getHeight() / 2;
             c.g2.IncrementaPunteggio();
-            // aggiungere punti e suono
         }
         // check lato destro
         if (this.x >= f.getWidth() - 120) {
@@ -112,17 +111,14 @@ public class Palla extends Thread {
             x = f.getWidth() / 2;
             y = f.getHeight() / 2;
             c.g1.IncrementaPunteggio();
-            // aggiungere punti e suono
         }
         // check lato alto
         if (this.y <= 70) {
             direzioneY = 1;
-            // aggiungere suono
         }
         // check lato basso
         if (this.y >= f.getHeight() - 80) {
             direzioneY = -1;
-            // aggiungere suono
         }
         // collisione con pad sinistra
         if (this.x <= c.g1.getPosX() + c.g1.getLarghezza() && this.y >= c.g1.getPosY() && this.y <= c.g1.getPosY() + c.g1.getAltezza()) {
