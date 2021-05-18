@@ -78,13 +78,14 @@ void VelocitaFissa()
 {
   int x = analogRead(Joystick_X);
   int y = analogRead(Joystick_Y);
+  int button = digitalRead(Joystick_Click);
   if(x<509){
     Serial.print('i');
   }
   else if(x>509){
     Serial.print('k');
   }
-  else if(x==509){
+  if(button == HIGH){
     Serial.print('m');
   }
 }
